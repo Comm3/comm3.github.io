@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Lean Notes"
 title_separator          : "-"
 name                     : "Davide Fornelli"
-description              : "KISS Tech Knowledge"
+description              : "Agile Tech Knowledge"
 url                      : "https://comm3.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the ath of your site, e.g. "/blog"
 repository               : "Comm3/comm3.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -49,7 +49,7 @@ atom_feed:
 
 # SEO Related
 google_site_verification :
-bing_site_verification   :
+bing_site_verification   : ""
 alexa_site_verification  :
 yandex_site_verification :
 
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Davide Fornelli"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "General purpose data scientist"
+  bio              : "KISS data scientist"
   location         : "Milan"
   email            :
   uri              :
@@ -175,7 +175,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Europe/Rome" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
